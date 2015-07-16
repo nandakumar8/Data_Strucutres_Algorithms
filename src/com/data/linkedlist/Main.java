@@ -19,8 +19,17 @@ public class Main {
 			
 		}
 		list.displaylist();
+		
+		
+		Doublelinked a= new Doublelinked();
+		a.insertFirst(22);
+		a.insertAfter(2 ,44);
+		a.insertAfter(4,55);
+        a.deleteKey(4);
+        a.displayForward();
+        a.displayBackward();
 	}
 
-   
+     
 
 }
