@@ -1,4 +1,4 @@
-package advancedsort;
+package com.data.advancedsort;
 
 public class Main {
 	
